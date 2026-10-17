@@ -55,16 +55,5 @@ MONGODB_URI=mongodb://127.0.0.1:27017/mini-ats
 | PUT | `/api/candidates/:id` | Update (a stage change is added to history) |
 | DELETE | `/api/candidates/:id` | Delete |
 
-## Deploy
-1. Create a free cluster on **MongoDB Atlas** and copy its connection string.
-2. Push this repo to GitHub.
-3. On **Render** (or Railway), create a Web Service from the repo: build `npm install`, start `npm start`.
-4. Set the `MONGODB_URI` environment variable to your Atlas string.
 
-## Push to GitHub
-```bash
-git init && git add . && git commit -m "Mini ATS"
-git branch -M main
-git remote add origin https://github.com/<you>/mini-ats.git
-git push -u origin main
 ```
