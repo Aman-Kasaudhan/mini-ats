@@ -2,7 +2,7 @@
 
 A lightweight Applicant Tracking System to manage candidates, move them through hiring stages, search/filter, and view dashboard metrics.
 
-**Live demo:** `https://mini-ats-ochre.vercel.app/`
+**Live demo:** https://mini-ats-ochre.vercel.app/
 
 
 ## Features
