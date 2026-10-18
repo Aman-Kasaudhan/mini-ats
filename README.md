@@ -2,8 +2,7 @@
 
 A lightweight Applicant Tracking System to manage candidates, move them through hiring stages, search/filter, and view dashboard metrics.
 
-**Live demo:** ``
-**Demo video:** ``
+
 
 ## Features
 - **Dashboard:** total candidates, active pipeline, hires, hire rate, offer acceptance, average days to hire, plus breakdowns by stage, role and source
