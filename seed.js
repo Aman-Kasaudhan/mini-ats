@@ -14,7 +14,7 @@ const rows = [
 ];
 
 (async () => {
-  await mongoose.connect("mongodb+srv://rajg99842_db_user:DajYL1dVR8LdqZWE@studydesk.5nzojj3.mongodb.net/?appName=StudyDesk" || "mongodb://127.0.0.1:27017/mini-ats");
+  await mongoose.connect("mongodb+srv://rajg99842_db_user:69rOx5nTReWQNWmW@studydesk.5nzojj3.mongodb.net/mini-ats?retryWrites=true&w=majority&appName=StudyDesk" || "mongodb://127.0.0.1:27017/mini-ats");
   await Candidate.deleteMany({});
   await Candidate.insertMany(rows.map(([name, role, source, stage]) => ({
     name, role, source, stage,
